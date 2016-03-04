@@ -1,0 +1,59 @@
+/* 
+NPower colours:
+Blue: #00aef0
+Green:#b5d600
+ */
+
+
+#top_menu{ 
+	position: relative;
+	width: 100%;
+	padding: 0px 5px 10px 0px;
+	background: #434343;
+	display: inline-block;
+	/* CP: Bottom border for the nav bar*/
+	border-bottom:3px solid;
+	border-bottom-color: #00aef0;
+}
+
+#top_menu ul li{
+	margin: auto;
+	width: 980px;
+	display: inline;
+}
+#top_menu ul li a{ 
+	padding: 0px;
+	margin-right: 20px;
+	font-size: 16px;
+	font-weight: normal;
+	text-decoration: none;
+	color: #fff;
+	float: left;
+}
+#top_menu ul li a:hover {
+	color: #00aef0;
+}
+
+#navList{
+	float:left; /* CP: makes the navigation links go to the left of the nav bar */
+	
+}
+
+#socList{
+	right:0px;
+	float: right; /* CP: makes the social links go to the right of the nav bar */
+}
+
+ #donateBtn{
+	padding :5px;
+	position: relative;
+	border-radius: 5px;
+	height: 22px;
+	width: 75px;
+	text-align: center;
+	background-color: #b5d600;
+	color: #000;
+	right: 5px;
+}
+
+

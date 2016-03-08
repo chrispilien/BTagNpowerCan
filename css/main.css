@@ -14,8 +14,10 @@ body{
 }
 
 
-section article{
-	margin-left: 20px;
+section{
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
 .pageContent{

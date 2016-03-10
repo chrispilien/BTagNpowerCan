@@ -14,6 +14,8 @@ Green:#b5d600
 	/* CP: Bottom border for the nav bar*/
 	border-bottom:3px solid;
 	border-bottom-color: #00aef0;
+	height: 40px;
+	
 }
 
 #top_menu ul li{
@@ -36,7 +38,9 @@ Green:#b5d600
 
 #navList{
 	float:left; /* CP: makes the navigation links go to the left of the nav bar */
-	
+}
+#navList ul{
+	margin-top: -5px;
 }
 
 #socList{
@@ -57,3 +61,53 @@ Green:#b5d600
 }
 
 
+#menu-icon {
+
+	display: hidden;
+	margin-top: 15px;
+	margin-left: 20px;
+	width: 16px;
+	height: 28px;
+	background-image:url(../Images/menu-icon-small.png);
+	background-repeat: no-repeat;
+
+}
+
+@media only screen and (max-width : 902px) {
+	#menu-icon {
+
+		display:inline-block;
+
+	}
+
+	/* hides and gives properties to the nav menu */
+	#navList ul { 
+		z-index:100;
+		display: none;
+		position: absolute;
+		padding: 7px;
+		background: #333;
+		border: 5px solid #444;
+		left: 0px;
+		top: 40px;
+		width: 33%;
+		border-radius: 4px 0 4px 4px;
+
+	}
+	
+	/* displays the nav menu when the mouse is hovering */
+	#navList:hover ul {
+
+		display: block;
+
+	}
+
+	#navList li {
+		display: block;
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+	}
+
+}

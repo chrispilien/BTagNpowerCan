@@ -1,0 +1,25 @@
+/* 
+NPower colours:
+Blue: #00aef0
+Green:#b5d600
+ */
+
+body{
+	display:block;
+	background-color: #eeeeef;
+	font-family: sans-serif;
+	margin:0;
+	padding: 0;
+	border: 0;
+}
+
+
+section{
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.pageContent{
+	position: relative;
+}

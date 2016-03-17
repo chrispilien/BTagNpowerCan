@@ -1,0 +1,111 @@
+/* 
+NPower colours:
+Blue: #00aef0
+Green:#b5d600
+ */
+
+
+#top_menu{ 
+	width: 100%;
+	padding-bottom: 10px;
+	background: #434343;
+	/* CP: Bottom border for the nav bar*/
+	border-bottom:3px solid;
+	border-bottom-color: #00aef0;
+	height: 40px;
+	
+}
+
+#top_menu ul li{
+	margin: auto;
+	width: 980px;
+	display: inline;
+}
+#top_menu ul li a{ 
+	padding: 0px;
+	margin-right: 20px;
+	font-size: 16px;
+	font-weight: normal;
+	text-decoration: none;
+	color: #fff;
+	float: left;
+}
+#top_menu ul li a:hover {
+	color: #00aef0;
+}
+
+#navList{
+	float:left; /* CP: makes the navigation links go to the left of the nav bar */
+}
+#navList ul{
+	margin-top: -5px;
+}
+
+#socList{
+	right:0px;
+	float: right; /* CP: makes the social links go to the right of the nav bar */
+}
+
+ #donateBtn{
+	padding :5px;
+	position: relative;
+	border-radius: 5px;
+	height: 22px;
+	width: 75px;
+	text-align: center;
+	background-color: #b5d600;
+	color: #000;
+	right: 5px;
+}
+
+
+#menu-icon {
+
+	display: hidden;
+	margin-top: 15px;
+	margin-left: 20px;
+	width: 16px;
+	height: 28px;
+	background-image:url(../img/menu-icon-small.png);
+	background-repeat: no-repeat;
+
+}
+
+@media only screen and (max-width : 902px) {
+	#menu-icon {
+
+		display:inline-block;
+
+	}
+
+	/* hides and gives properties to the nav menu */
+	#navList ul { 
+		z-index:100;
+		display: none;
+		position: absolute;
+		padding: 7px;
+		background: #333;
+		border: 5px solid #444;
+		left: 0px;
+		top: 40px;
+		width: 33%;
+		border-radius: 4px 0 4px 4px;
+
+	}
+	
+	/* displays the nav menu when the mouse is hovering */
+	#navList:hover ul {
+
+		display: block;
+
+	}
+
+	#navList li {
+		display: block;
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+	}
+
+}

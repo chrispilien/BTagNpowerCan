@@ -6,11 +6,9 @@ Green:#b5d600
 
 
 #top_menu{ 
-	position: relative;
 	width: 100%;
-	padding: 0px 0px 10px 0px;
+	padding-bottom: 10px;
 	background: #434343;
-	display: inline-block;
 	/* CP: Bottom border for the nav bar*/
 	border-bottom:3px solid;
 	border-bottom-color: #00aef0;
@@ -68,7 +66,7 @@ Green:#b5d600
 	margin-left: 20px;
 	width: 16px;
 	height: 28px;
-	background-image:url(../Images/menu-icon-small.png);
+	background-image:url(../img/menu-icon-small.png);
 	background-repeat: no-repeat;
 
 }
